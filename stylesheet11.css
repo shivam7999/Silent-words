@@ -1,0 +1,270 @@
+	
+body{
+	margin:0px;
+}
+
+	#container {
+	margin: 0px auto;
+	width: 600px;
+	height: 440px;
+	border: 3px  solid black;
+	border-radius:20px;
+	position:absolute;
+	left:10px;
+	top:200px;
+}
+	#videoElement {
+	width: 600px;
+	height: 700px;
+	margin-top:-130px;
+	/*background-color: rgba(0,0,0,0.9);*/
+}
+#p1{
+	font-size:75px;
+	font-weight:700;
+	color:rgb(255,220,178);
+	text-shadow:5px 5px 2px blue,8px 8px 3px black;
+	margin-left:400px;
+	font-family:cursive;
+margin-top:-90px;
+}
+#message{
+border: 3px solid black;
+border-radius: 30px;
+width: 700px;
+height: 300px;
+font-size: 20px;
+background-color: rgba(0,0,0,0.7);
+color: rgb(230,230,250) ; 
+padding: 5px;
+display: block;
+text-shadow: 1px 1px 1px white;
+margin-left:600px;
+margin-top:130px;
+font-weight:500;
+}
+
+	ul{
+	padding:0;
+	list-style-type: none;
+	
+}
+ul li{
+	float:left;
+	width: 215px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	border-radius: 3px;
+	color: white;
+}
+ul li a{
+	text-decoration: none;
+	display: block;
+	color: white;
+	/*background-color: black;*/
+}
+ul li a:hover{
+/*border-bottom: 3px solid blue;*/
+/*opacity:0.7;*/
+color: white;
+/*background-color: black;*/
+border-bottom: 3px solid white;
+}
+
+ul li ul li{
+	display: none;
+	width:1970px;
+	position:relative;
+	left:-550px;
+	text-align: center;
+	text-indent:-650px;
+}
+ul li:hover ul li{
+display: block;
+cursor: pointer;
+opacity: 0.9;
+color: white;
+background-color: black;
+height:50px;
+border-radius:20px;
+}
+ #team ul li{
+	width:3500px;
+	left:-1310px;
+}
+#home ul li{
+	width:3500px;
+	left:-1310px;
+}
+ul li:hover ul li:hover{
+border-bottom: 3px solid white;	
+border-radius:20px;
+}
+#taskbar{
+	display: block;
+	/*background-color:rgba(0,0,0,0.0);*/
+	position: fixed;
+	top:0px;
+	/*border-bottom: 3px solid blue;*/
+	width:1400px;
+	height:50px;
+	transition: all 500ms linear;
+	float: left;
+	left:750px;
+}
+#sidebar #team{
+		height:20px;
+		margin-top:8px;
+	}
+	#sidebar{
+	position: fixed;
+	height:100%;
+	width: 225px;
+	background-color:black;
+	color: white;
+	border-bottom: gray;
+	right:-225px;
+	margin-top: 0px;
+	transition: all 500ms linear;
+	border: 3px solid white;
+	border-radius: 20px;
+	overflow:hidden;
+}
+#gif{
+	height:600px;
+}
+#giffy{
+	height:100%;
+	width:255px;
+	right:-225px;
+}
+#taskbar.active1{
+	top:0px;
+}
+#taskbar.inactive1{
+	top:-50px;
+}
+.togglebar{
+	float:right;
+	top:12px;
+	left: 1300px;
+	position:fixed;		
+}
+	.my_button{
+			text-decoration: none;
+	display: block;
+	color: white;
+	font-weight: 400 ;
+	/*background-color: rgba(0,0,0,0.0);*/
+	height:45px;
+	cursor:pointer;
+	}
+	#taskbar a{
+		text-decoration: none;
+	}
+	#home a:hover{
+color:rgb(50,250,50);
+text-decoration: none;
+text-shadow:1px 1px 1px rgb(53,255,20);
+	}
+	#about a:hover{
+		color: rgb(255,100,100);
+		text-decoration: none;
+		text-shadow:1px 1px 1px red;
+	}
+	#team a:hover{
+		color:yellow;
+		text-decoration: none;
+		text-shadow:1px 1px 1px rgb(255,215,0);
+	}
+	#contact a:hover{
+		color:purple;
+		text-shadow:1px 1px 1px purple;
+			}
+	#login a:hover{
+		color:rgb(0,255,255);
+		text-decoration: none;
+		text-shadow:1px 1px 1px blue;
+
+	}
+	#logout a:hover{
+		color:rgb(0,255,255);
+		text-decoration: none;
+		text-shadow:1px 1px 1px blue;
+
+	}
+	#setting a:hover{
+		color:orange;
+		text-decoration: none;
+		text-shadow:1px 1px 1px blue;
+
+	}
+	.togglebar span{
+	display: block;
+	margin:3px 1px;
+	background-color:white;
+	height:3.5px;
+	width:40px;
+	border: 1.5px solid black;
+	
+}
+	#sign a:hover{
+		color:violet;
+	}
+	#sidebar ul {
+	top:10px;
+	position:absolute;
+}
+#sidebar.active{
+	top: 50px;
+	right:0px;
+	position: fixed;
+	
+}
+	#transparent{
+		margin-top:0px;
+		height: 500px;
+		width:1200px;
+		top:0px;
+	}
+	#copyright_logo{
+		/*position:relative;*/
+	width:50px;
+	margin-top:55px;
+	margin-left: 330px;
+}
+#profile{
+	margin-top:-10px;
+	margin-right: 150px;
+}
+#profile:hover{
+background-color:white;
+}
+#profile1 ul li{
+	width:1500px;
+	left:-1300px;
+}
+#profile1 ul li a{
+	margin-left:1650px;
+
+}
+#profile1 ul li a:hover{
+	color:rgb(0,255,255);
+	text-shadow:1px 1px 1px blue;
+}
+#image{
+	height:400px;
+	width:600px;
+	float:left;
+	 	border:3px solid black;
+	border-radius:10px;
+	/*margin-top: -100px;*/
+}
+.video{
+	height:400px;
+	width:600px;
+	 margin-left:700px; 
+	
+}

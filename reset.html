@@ -1,0 +1,72 @@
+<?php  if(!isset($_SESSION)) 
+    { 
+        session_start(); 
+    } 
+  include_once 'includes/dbh.inc.php';
+    if(!isset($_SESSION['user_uid'])){
+      echo "<script>location.href='mylogin.html'</script>";
+    }
+?>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="shivam.css">
+
+
+<div id="juda">
+	<div id="copyright_logo1"><img src="logo.png" /></div>
+	<h1 >Change Password.....</h1>
+
+	<p class="para">
+		Let's make the change	
+	</p>
+	<form id="form" action="" method="POST">
+		<div class="form-group">
+		
+			<label>Old Password :      <input id="oldpass"class="left" type="Password" name="oldpass" placeholder="Old Password"></label>
+
+		</div>
+		<div class="form-group">
+
+			<label>New Password :      <input id="newpass" class="left1" type="Password" name="newpass" placeholder="New Password"></label>
+
+		</div>
+		<div class="form-group">
+
+			<label>Confirm New Password : <input id="pass" type="Password" name="confnewpass" placeholder="New Password"></label>
+
+		</div>
+		<div>
+			<button id="juice">Done!!!</button>
+		</div>
+	</form>
+</div>
+<script src="jquery-1.11.3.js"></script>
+
+<script src="jqueryui/jquery-ui.js"></script>
+<script>
+
+function change_style(){
+	var box1=document.getElementById("oldpass");
+	var box2=document.getElementById("newpass");
+	var box3=document.getElementById("pass");
+	if(box1.value.length<2){
+		alert("please enter at least 5 characters!!");
+		box1.focus();
+		box1.style.border=" solid 3px red";
+		return false;
+	}
+	 if(box2.value.length<5){
+		alert("please enter at least 5 characters!!");
+		box2.focus();
+		box2.style.border=" solid 3px red";
+		return false;
+	}
+	if(String(box2.value)!=String(box3.value))
+	{
+		alert("password do not match!!!")
+		box3.focus();
+		box3.style.border=" solid 3px red";
+		return false;
+	}
+}
+</script>
+

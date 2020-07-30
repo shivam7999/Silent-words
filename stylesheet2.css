@@ -1,0 +1,439 @@
+body{
+margin:0px;
+}
+#jayam{
+	height: 500px;
+	width:400px;
+	margin-top:-1000px;
+	background-color:rgb(0,0,0);
+	border-radius:20px;
+	border:3px solid black;
+	margin-left: 350px;
+	float:left;
+}
+#shivam{
+	height:500px;
+	width:400px;
+	margin-top:-1000px;
+	border-radius:20px;
+	background-color:rgb(0,0,0);
+	border:3px solid black;
+	margin-left: 350px;
+	float:left;
+}
+#jayam img{
+	border:3px solid black;
+	border-radius:20px;
+	margin-left: 20px;
+	margin-top:0px;
+	margin-right:100px;
+}
+#jayam p{
+padding:5px;
+margin-left: 70px;
+text-align: left;
+margin-top:0px;
+text-shadow:1px 1px 1px blue,2px 2px 1px green;
+font-size:22px;
+color:white;
+font-family: 'Sriracha', cursive;
+}
+#jayam img{
+	border:3px solid black;
+	border-radius:20px;
+	margin-left: 80px;
+	margin-top:70px;
+	margin-right:100px;
+}
+#Vardhaman{
+	height: 500px;
+	width:400px;
+	background-color:rgb(0,0,0);
+	border:3px solid black;
+	border-radius:20px;
+	margin-left: 350px;
+	margin-top:-1000px;
+	float:left;
+}
+#Vardhaman p{
+padding:5px;
+margin-left: 70px;
+text-align: left;
+margin-top:0px;
+font-size:22px;
+text-shadow:1px 1px 1px blue,2px 2px 1px green;
+color:white;
+font-family: 'Sriracha', cursive;
+}
+#Vardhaman img{
+	border:3px solid black;
+	border-radius:20px;
+	margin-left: 80px;
+	margin-top:70px;
+	margin-right:100px;
+}
+#shivam img{
+	border:3px solid black;
+	border-radius:20px;
+	margin-left: 70px;
+	margin-top:70px;
+	margin-right:100px;
+	height:270px;
+	width:250px;
+}
+#shivam p{
+	z-index: 10;
+	margin-top:0px;
+padding:5px;
+margin-left: 70px;
+text-align: left;
+font-size:22px;
+color:white;
+text-shadow:1px 1px 1px blue,2px 2px 1px green;
+font-family: 'Sriracha', cursive;
+}
+.copy{
+	font-family: 'Satisfy', cursive;
+	text-shadow:1px 1px 1px black;
+	float:left;
+	margin-right:100px;
+	color: white;
+	font-weight: 1000;
+	width:800px;
+	margin-left:500px;
+	margin-top:-30px;
+}
+#copyright_logo{
+	margin-top:-100px;
+	float:left;
+	margin-left:80px;
+}
+.ml11 {
+  font-weight: 700;
+  font-size: 3.5em;
+}
+
+.ml11 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.ml11 .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 3px;
+  background-color: #fff;
+  transform-origin: 0 50%;
+}
+
+.ml11 .line1 { 
+  top: 0; 
+  left: 0;
+}
+
+.ml11 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+#back{
+	height:1450px;
+	width:100%;
+	float:left;
+	margin-top:0px;
+}
+#juda{
+	height:2350px;
+	width:100%;
+	margin-top:-600px;
+	margin-bottom: 0px;
+	  opacity: 1;
+	 float:left;
+     /*filter: alpha(1px); /* IE hack */*/
+}
+#image{
+	width:250px;
+}
+#shivam:hover{
+	color:white;
+	opacity:0.9;
+	cursor: pointer;
+/* animation: shake 1s;
+
+   When the animation is finished, start again 
+  animation-iteration-count: infinite;*/
+}
+#jayam:hover{
+	color:white;
+	opacity:0.9;
+	cursor: pointer;
+ /*animation: shake 1s;
+
+   When the animation is finished, start again 
+  animation-iteration-count: infinite;*/
+}
+#Vardhaman:hover{
+	color:white;
+	opacity:0.9;
+	cursor: pointer;
+/* animation: shake 1s;
+
+   When the animation is finished, start again 
+  animation-iteration-count: infinite;*/
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+#shivam #whatsapp{
+	height:30px;
+	width:30px;
+	margin-top: -100px;
+	margin-left:270px;
+	float:left;
+
+}
+#shivam #Instagram{
+	height:30px;
+	width:30px;
+	margin-top: -100px;
+	margin-left:310px;
+	float:left;
+}
+#shivam #Facebook{
+	height:30px;
+	width:30px;
+	margin-top: -100px;
+	margin-left:350px;
+	float:left;
+
+}
+#jayam #whatsapp{
+	height:30px;
+	width:30px;
+	margin-top: -100px;
+	margin-left:270px;
+	float:left;
+
+}
+#jayam #Instagram{
+	height:30px;
+	width:30px;
+	margin-top: -100px;
+	margin-left:310px;
+	float:left;
+
+}
+#jayam #Facebook{
+	height:30px;
+	width:30px;
+	margin-top: -100px;
+	margin-left:350px;
+	float:left;
+
+}
+#Vardhaman #whatsapp{
+	height:30px;
+	width:30px;
+	margin-top: -100px;
+	margin-left:270px;
+	float:left;
+
+}
+#Vardhaman #Instagram{
+	height:30px;
+	width:30px;
+	margin-top: -100px;
+	margin-left:310px;
+	float:left;
+
+}
+#Vardhaman #Facebook{
+	height:30px;
+	width:30px;
+	margin-top: -100px;
+	margin-left:350px;
+	float:left;
+
+}
+#shivam #whatsapp:hover{
+	background-color:white;
+	height:40px;
+	width:40px;
+	opacity:1;
+	cursor:pointer;
+}
+#shivam #Instagram:hover{
+	background-color:white;
+	height:40px;
+	width:40px;
+	opacity:1;
+	cursor:pointer;
+}
+#shivam #Facebook:hover{
+	background-color:white;
+	height:40px;
+	width:40px;
+	opacity:1;
+	cursor:pointer;
+}
+#jayam #whatsapp:hover{
+	background-color:white;
+	height:40px;
+	width:40px;
+	opacity:1;
+	cursor:pointer;
+}
+#jayam #Instagram:hover{
+	background-color:white;
+	height:40px;
+	width:40px;
+	opacity:1;
+	cursor:pointer;
+}
+#jayam #Facebook:hover{
+	background-color:white;
+	height:40px;
+	width:40px;
+	opacity:1;
+	cursor:pointer;
+}
+#Vardhaman #whatsapp:hover{
+	background-color:white;
+	height:40px;
+	width:40px;
+	opacity:1;
+	cursor:pointer;
+}
+#Vardhaman #Instagram:hover{
+	background-color:white;
+	height:40px;
+	width:40px;
+	opacity:1;
+	cursor:pointer;
+}
+#Vardhaman #Facebook:hover{
+	background-color:white;
+	height:40px;
+	width:40px;
+	opacity:1;
+	cursor:pointer;
+}
+.cascade-slider_container {
+  /*position: relative;*/
+  width: 300px;
+  height: 500px;
+  margin-left:100px;
+  margin-top:900px;
+  padding-top: 150px;
+}
+
+.cascade-slider_item {
+  /*position: absolute;*/
+  top: 50%;
+  left: 50%;
+  transform: translateY(-5%) translateX(60%) scale(0.3);
+  transition: all 1s ease;
+  opacity: 0;
+  z-index: -1;
+  text-align: center;
+}
+/*.cascade-slider_item img {
+  width: 400px;
+}*/
+
+.cascade-slider_item.next {
+  left: 50%;
+  transform: translateY(-5%) translateX(-60%) scale(0.6);
+  opacity: 1;
+  z-index: 1;
+}
+
+.cascade-slider_item.prev {
+  left: 50%;
+  transform: translateY(-5%) translateX(170%) scale(0.6);
+  opacity: 1;
+  z-index: 1;
+}
+
+.cascade-slider_item.now {
+  top: 50%;
+  left: 50%;
+  transform: translateY(-5%) translateX(0%) scale(1);
+  opacity: 1;
+  z-index: 3;
+}
+
+.cascade-slider_arrow {
+  display: inline-block;
+  /*position: absolute;*/
+  top: 50%;
+  cursor: pointer;
+  z-index: 5;
+  
+}
+
+.cascade-slider_arrow-left { left: 0; float:left;margin-top:-900px;height:50px;width:50px;background-color:white;}
+
+.cascade-slider_arrow-right { right: 0; float:left;margin-left:1100px;margin-top:-900px;height:50px;width:50px;background-color:white;}
+
+.cascade-slider_nav {
+  /*position: absolute;*/
+  margin-top:-450px;
+  margin-left:450px;
+  /*bottom: -120px;*/
+  width: 100%;
+  text-align: center;
+  z-index: 5;
+  float:left;
+}
+
+.cascade-slider_dot {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin: 1em;
+  background: black;
+  list-style: none;
+  cursor: pointer;
+  float:left;
+  
+}
+
+.cascade-slider_dot:hover { background: #555; }
+
+.cascade-slider_dot.cur { background: #555; }
+.cascade-slider_arrow-right:hover{
+	background-color:blue;
+	opacity:0.7;
+}
+.cascade-slider_arrow-left:hover{
+	background-color:blue;
+	opacity:0.7;
+}
+#webd p{
+	width:1100px;
+	height:200px;
+	font-size:24px;
+	text-align:right,left;
+	margin-left:150px;
+	margin-top:-350px;
+	color:white;
+	text-shadow:1px 2px 2px blue;
+	font-family: 'Sriracha' , cursive;
+	float:left;
+
+}

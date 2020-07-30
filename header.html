@@ -1,0 +1,133 @@
+<?php
+
+	include_once 'includes/dbh.inc.php';
+?>
+
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link type="text/css" rel="stylesheet" href="header.css">
+	<link type="text/css" rel="stylesheet" href="jqueryui/jquery-ui.css">
+	<link type="text/css" rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
+	<link type="text/css" rel="stylesheet" href="jqueryui/jquery-ui.theme.css">
+		<script src="jquery-1.11.3.js"></script>
+		<script src="jqueryui/jquery-ui.js"></script>
+	</head>
+	<body background="web development 2.jpg">
+		<div id="header">
+		</div>
+		<div id ="taskbar">
+			<ul>
+				<li id="home"><a  class="my_button"href="index.html"> Home</a>
+				<ul>
+					<li  id="home"><a class="my_button" href="Project Description.html">Project description</a></li>
+					<li id="home"><a  class="my_button" href="">Dataset Sample</a></li>
+				</ul>
+					</li>
+				<!-- <li id="about"><a class="my_button" href="about.html"> About </a></li> -->
+				<li id="team"><a class="my_button"> Team </a>
+						<ul>
+						<li id="team"><a class="my_button" href="mentor.html">Mentor</a></li>
+						<li id="team"><a class="my_button" href="web.html">Web Designing</a></li>
+						<li id="team"><a class="my_button" href="project development.html">Project Development</a></li>
+					</ul>
+					</li>
+				<!-- <li id="contact"><a class="my_button"href="contact_us.html"> Contact Us </a></li> -->
+				<li id="login"><a href="mylogin.html"class="my_button"> Login</a></li>
+				<li id="sign"onclick=""><a class="my_button" href="detail.htm"> Sign Up </a></li>
+			</ul>
+		</div>
+		<div id="transparent"></div>
+			<div class = "togglebar" onclick="openbar()">
+				<span></span>
+				<span> </span>
+				<span></span>
+				</div>
+		<div id ="sidebar">
+			<div id ="gif">
+				<img src="https://media.giphy.com/media/xT9IgqjmZ870vakg4E/giphy.gif" id="giffy">
+			</div>
+		<ul>
+			<li id="home"><a class="my_button"href="index.html">Home</a></li>
+			<li id="about"><a class="my_button" href="about.html"> About </a></li>
+			<li id="login" ><a href="mylogin.html"class="my_button">Login</a></li>
+			<!-- <li id="team"><a href="">Team</a></li> -->
+		</ul>
+		</div>
+				<div id="dialogue" >
+	<form id="box" action ="http://localhost/project/login.php" method="POST" onsubmit="return change_style()">
+	<label for="name">User Name:</label> 
+	<input type= "text" id="name" name="username"></br>
+		<label for="password">password:</label> 
+	<input type= "password" id="password" name="pwd"></br><br>
+	<button id="submit" onclick="change_style()">submit</button>
+	</form>
+	</div>
+		<script>
+function openbar(){
+	document.getElementById("sidebar").classList.toggle("active");
+}
+function opendialogue(){
+	$(document).ready(function(){
+		$("#dialogue").dialog({draggable:false,height:250,width:250,modal: true,closeOnEscape: false});
+		document.getElementById("box").style.visibility="visible";
+
+});
+}
+function change_style(){
+	var box1=document.getElementById("name");
+	var box2=document.getElementById("password");
+	if(box1.value.length<5){
+		alert("please enter at least 5 characters!!");
+		box1.focus();
+		box1.style.border=" solid 3px red";
+		return false;
+	}
+	 if(box2.value.length<5){
+		alert("please enter at least 5 characters!!");
+		box2.focus();
+		box2.style.border=" solid 3px red";
+		return false;
+	}
+}
+$('#transparent').on('mouseenter',showevent).on('mouseleave',hideevent);
+	function showevent(){
+	document.getElementById("taskbar").classList.toggle("active1");
+	}
+	function hideevent(){
+		 document.getElementById("taskbar").classList.toggle("inactive1");
+	}
+
+
+		var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("taskbar").style.top = "0";
+  } else {
+    document.getElementById("taskbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+// Wrap every letter in a span
+var textWrapper = document.querySelector('.ml9 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml9 .letter',
+    scale: [0, 1],
+    duration: 1500,
+    elasticity: 600,
+    delay: (el, i) => 45 * (i+1)
+  }).add({
+    targets: '.ml9',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
+	</body>
+</html>

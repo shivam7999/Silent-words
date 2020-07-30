@@ -1,0 +1,34 @@
+  #main{
+	color: black;
+	text-shadow:3px 3px 2px white;
+	font-size:50px;
+	font-weight:700;
+	width:50px;
+	margin-left:0px;
+}
+
+#bar{
+	position:absolute;
+	top:200px;
+	background-color:yellow;
+	width:10px;
+	height:250px;
+	left:40px;
+	border:2px solid yellow;
+}
+
+#topic {
+	top:200px;
+	position: absolute;
+	left:-300px;
+	width: 50px;
+}
+
+#juice {
+	position: absolute;
+	width: 350px;
+	left: 100px;
+}
+#judi{
+	background-color:yellow;
+}

@@ -1,0 +1,108 @@
+#element{
+	border:2px solid rgb(0,0,3);
+	height:500px;
+	width:400px;
+	margin-left:470px;
+	margin-top:100px;
+	border-radius:10px;
+}
+#element h1{
+	color:#007bff;
+	text-shadow:1px 1px 1px #007bff;
+}
+input{
+	border:0px ;
+	border-bottom: 1px solid black;
+}
+label{
+	font-size:18px; 
+	font-weight:300;
+	color:black;
+	margin-right:10px;
+	margin-left:70px;
+}
+#copyright_logo1{
+height:20px;
+width:20px;
+margin-left:170px;
+}
+#data{
+	margin-top:80px;
+}
+#p3{
+	margin-left:40px;
+	color:black;
+}
+input:focus {
+    outline:none;
+}
+#link{
+	float:left;
+	color:#007bff;
+	font-family:cursive;
+	margin-left:250px;
+	width:150px;
+	margin-top:30px;
+	text-decoration: none;
+}
+#link a{
+	text-decoration: none;
+}
+#link a:link {
+  text-decoration: none;
+}
+
+#link a:visited {
+  text-decoration: none;
+}
+
+#link a:hover {
+  text-decoration: none;
+}
+
+#link a:active {
+  text-decoration: none;
+}
+#link1{
+	color: #007bff;
+	font-family:cursive;
+	margin-left:25px;
+	width:150px;
+	text-decoration: none;
+	float:left;
+	margin-top:-80px;
+}
+#link1 a{
+	text-decoration: none;
+}
+#link1 a:link {
+  text-decoration: none;
+}
+
+#link1 a:visited {
+  text-decoration: none;
+}
+
+#link1 a:hover {
+  text-decoration: none;
+}
+
+#link1 a:active {
+  text-decoration: none;
+}
+#submit{
+	float:left;
+	margin-top:-40px;
+	margin-left:50px;
+	width:80px;
+	height:40px;
+	background-color:#007bff;
+	color:white;
+	font-family:cursive;
+	font-weight:200;
+	border:3px solid #58cced;
+	border-radius:10px;
+}
+#submit:hover{
+	opacity:0.8;
+}

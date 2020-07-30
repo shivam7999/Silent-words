@@ -1,0 +1,82 @@
+#create_form{
+	background-color:rgba(0,0,0,0.7);
+	border: 5px solid black;
+	border-radius: 20px;
+	color:rgb(255,255,255);
+	font-size: 24px;
+	font-weight: 400;	
+	height: 500px;
+	width: 800px;
+	text-align: center;
+	margin-left: 250px;
+}
+
+#create_form label{
+margin-top: 50px;
+}
+#comment{
+	width:100px;
+	margin-top:50px;
+margin-right:10px;
+margin-left:175px;
+}
+#create_form input{
+margin-top:50px;
+border: 3px solid black;
+border-radius: 10px;
+padding: 5px;
+width: 300px;
+}
+#comment_client{
+	margin-top:-50px;
+	border: 3px solid black;
+	border-radius: 10px;
+	padding: 5px;
+	width: 300px;
+	height: 100px;
+	width: 400px;
+	padding: 2px;
+	margin-left:190px;
+}
+#header{
+	height:300px;
+}
+#heading p{
+	font-size:70px;
+	color:black;
+	text-shadow:3px 3px 1px yellow,5px 5px 2px white,7px 7px 3px orange;
+	font-weight:600;
+	margin-top:-250px;
+	margin-left:500px;
+}
+#submit_contact ul li{
+	color:black;
+	background-color:rgb(255,255,255);
+	width:200px;
+	height:40px;
+	border:3px solid black;
+	border-radius:20px;
+	padding:3px;
+	line-height:35px;
+	margin-left:300px;
+	font-weight:600;
+}
+#submit_contact ul li:hover{
+	background-color:rgb(90,90,90,0.7);
+}
+.copy{
+	margin-top: 85px;
+	margin-right:100px;
+	display:block;
+	color: black;
+	font-weight: 1000;
+	width:500px;
+	margin-left:500px;
+	text-shadow:0px 0px 0px black;
+}
+#copyright_logo{
+display: block;
+position:absolute;
+top: 715px;
+left: 590px; 
+}

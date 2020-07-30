@@ -1,0 +1,20 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'class_hsv_webcam.py'
+ outputting to 'newclass_hsv_webcam.py'
+--------------------------------------------------------------------------------
+
+35:22: INFO: Renamed 'tf.gfile.GFile' to 'tf.io.gfile.GFile'
+38:5: INFO: Renamed 'tf.gfile.FastGFile' to 'tf.compat.v1.gfile.FastGFile'
+39:16: INFO: Renamed 'tf.GraphDef' to 'tf.compat.v1.GraphDef'
+43:5: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+--------------------------------------------------------------------------------
+

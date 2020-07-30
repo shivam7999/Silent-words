@@ -1,0 +1,30 @@
+<?php  if(!isset($_SESSION)) 
+    { 
+        session_start(); 
+    } ?>
+<script type="text/javascript"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="shivam.css">
+
+
+<div id="juda">
+	<div id="copyright_logo1"><img src="logo.png" /></div>
+	<h1 >Forgot Password???</h1>
+
+	<p class="para">
+		Don't worry!! We always have a solution	
+	</p>
+	<form id="form" action="http://localhost/Silent words/forgot.php" method="POST">
+		<div class="form-group">
+		
+			<label>Your email :<input class="left2" type="email" name="vfrmail" placeholder="Enter your email address.."></label>
+
+		</div>
+		
+		<div>
+			<button id="juice" name="done">Done!!!</button>
+		</div>
+	</form>
+</div>
+
+

@@ -1,0 +1,113 @@
+
+#Age_user{
+	width:80px;
+}
+#name_user{
+	width:400px;
+	margin-left:97px;
+}
+#password_user{
+	width:400px;
+	margin-left:75px;
+}
+input.placeholder{
+	margin-left:10px;
+}
+#radio{
+	margin-top:5px;
+}
+#Email_user{
+	margin-left:95px;
+}
+#inform{
+	width:30px;
+	margin-top:12px;
+}
+#username_user{
+	margin-right:130px;
+	margin-left:10px;
+}
+#confirm_password_user{
+	margin-left:17px;
+}
+#header p{
+	height:100px;
+	width:700px;
+	font-size :45px;
+	font-family:Arial;
+	font-weight:900;
+	color:rgba(0,0,0,0.8);
+	margin-left:100px;
+	padding-top: 25px;
+}
+#header
+{
+	background-color:rgb(255,235,235);
+}
+input{
+height:20px;
+width:400px;
+border:0px;
+border-bottom: 2px solid black;
+margin-top:20px;
+padding:5px;
+opacity:0.8;
+outline:none;
+}
+#element{
+	height:650px;
+	width:800px;
+	background-color:rgb(255, 253, 250);
+	border: 3px solid black;
+	border-radius: 20px;
+	margin-left:250px;
+	 clear: both;
+}
+#submit{
+	color:white;
+	background-color:#007bff;
+	font-weight: 900;
+	border:2px solid blue;
+	border-radius:10px;
+	height: 40px;
+	width: 100px;
+	margin-left:250px;
+}
+#submit:hover{
+	color: white;
+	background-color:blue;
+}
+.copy{
+	margin-top: 100px;
+	margin-right:100px;
+	display:block;
+	color: black;
+	font-weight: 1000;
+	width:500px;
+	margin-left:500px;
+}
+#copyright_logo{
+display: block;
+position:absolute;
+top: 875px;
+left: 650px; 
+background-color:rgba(255,250,250,0.3);
+}
+#copyright_logo1{
+display: block;
+position:absolute;
+top: 60px;
+left: 35px; 
+background-color:rgba(255,250,250,0.3);
+}
+#confirm_password_user{
+	margin-right:130px;
+}
+#juda
+{
+	text-align: left;
+	margin-left: 100px;
+}
+#element h1{
+	color:#007bff;
+}

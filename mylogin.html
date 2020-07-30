@@ -1,0 +1,65 @@
+<?php  if(!isset($_SESSION)) 
+    { 
+        session_start(); 
+    } 
+
+	include_once 'includes/dbh.inc.php';
+?>
+
+<!DOCTYPE html>
+<head>
+
+<title>Silent Words:user_detail</title>
+<link type="text/css"rel="stylesheet" href="stylesheet12.css">
+<link type="text/css" rel="stylesheet" href="jqueryui/jquery-ui.css">
+
+<link type="text/css" rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
+
+<link type="text/css" rel="stylesheet" href="jqueryui/jquery-ui.theme.css">
+
+</head>
+<body >
+	<div id="header">
+	<div id="element">
+			 <div id="copyright_logo1"><img src="logo.png" /></div>
+			 <div id="data">
+		<h1 align="center">Register</h1>
+		<p id="p3"><i>Use your Sign Language username and password </i></p><br><br><br>
+	<form id="box" action ="http://localhost/Silent words/login.php" method="POST" onsubmit="return change_style()">
+	
+	<label for="userid">Username:</label> 
+	<input type= "text" id="userid" name="umd"placeholder=" Ex:myusername"><br><br><br><br>
+		<label for="password_user">Password:</label> 
+	<input type= "password" id="password_user" name="pwd"placeholder="  Password"><br><br><br><br>
+	<p  id="link" ><a href="detail.htm"><b>Sign Up</b></a></p>
+	<p  id="link1" ><a href="forgot.html"><b>Forgot Password?</b></a></p>
+	<button id="submit" name="login" onclick="change_style()">Login</button>
+	</form>
+</div>
+</div>
+  <!-- <div class="copy">
+             <div id="copyright_logo"><img src="logo.png" /></div>
+</div> -->
+<script src="jquery-1.11.3.js"></script>
+
+<script src="jqueryui/jquery-ui.js"></script>
+<script>
+function change_style(){
+	var box1=document.getElementById("userid");
+	var box2=document.getElementById("password_user");
+	if(box1.value.length<5){
+		alert("please enter at least 5 characters!!");
+		box1.focus();
+		box1.style.border=" solid 3px red";
+		return false;
+	}
+	 if(box2.value.length<5){
+		alert("please enter at least 5 characters!!");
+		box2.focus();
+		box2.style.border=" solid 3px red";
+		return false;
+	}
+	}
+</script>
+</body>
+</html>

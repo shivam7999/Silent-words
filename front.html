@@ -1,0 +1,106 @@
+
+<?php  if(!isset($_SESSION)) 
+    { 
+        session_start(); 
+    } 
+  include_once 'includes/dbh.inc.php';
+    if(!isset($_SESSION['user_uid'])){
+      echo "<script>location.href='mylogin.html'</script>";
+    }
+?>
+
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link type="text/css" rel="stylesheet" href="stylesheet11.css">
+  <link type="text/css" rel="stylesheet" href="jqueryui/jquery-ui.css">
+  <link type="text/css" rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
+  <link type="text/css" rel="stylesheet" href="jqueryui/jquery-ui.theme.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"></script>
+  <script async src="opencv.js" onload="onOpenCvReady();"></script>
+ <script async type="text/javascript" src="socket.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="jquery-1.11.3.js"></script>
+    <script src="jqueryui/jquery-ui.js"></script>
+  </head>
+  <body background="front_background.jpg">
+    <div id="header">
+    </div>
+    <div id ="taskbar">
+      <ul>
+        <li id="home"><a  class="my_button"href="index.html"> Home</a>
+        <ul>
+          <li  id="home"><a class="my_button" href="Project Description.html">Project description</a></li>
+          <li id="home"><a  class="my_button" href="">Dataset Sample</a></li>
+        </ul>
+          </li>
+        <!-- <li id="about"><a class="my_button" href="about.html"> About </a></li> -->
+        <li id="team"><a class="my_button"> Team </a>
+            <ul>
+            <li id="team"><a class="my_button" href="">Mentor</a></li>
+            <li id="team"><a class="my_button" href="web.html">Web Designing</a></li>
+            <li id="team"><a class="my_button" href="project development.html">Project Development</a></li>
+          </ul>
+          </li>
+        <!-- <li id="contact"><a class="my_button"href="contact_us.html"> Contact Us </a></li> -->
+        <li id="profile1"><a><img id="profile"src="profile_image.png"></a>
+          <ul>
+            <li><a class="my_button" href="reset.html">Change Password</a></li>
+               <li id="logout" name="logout"><a class="my_button" href="func.php"> Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div id="transparent" ></div>
+    </div>
+      <div class = "togglebar" onclick="openbar()">
+        <span></span>
+        <span> </span>
+        <span></span>
+        </div>
+    <div id ="sidebar">
+      <div id ="gif">
+        <img src="https://media.giphy.com/media/xT9IgqjmZ870vakg4E/giphy.gif" id="giffy">
+      </div>
+    <ul>
+      <li id="home"><a class="my_button"href="index.html">Home</a></li>
+      <li id="about"><a class="my_button" href="about.html"> About </a></li>
+      <li ><a class="my_button" href="">Logout</a></li>
+      <!-- <li id="setting"><a class="my_button"> Settings </a></li> -->
+    </ul>
+    </div>
+    <div id="copyright_logo"><img src="logo.png" /></div>
+    <p id="p1">Actions that Speak</p>
+    <div id="container">
+
+    <video autoplay="true" id="videoElement">
+    </video>
+    <canvas id="canvasOutput"></canvas>
+    </div>
+    <div class="video">
+      <img id="image">
+    </div>
+    <!--   <div id ="message">
+      <h4 align="center">Letter Or Number Predictions</h4>
+      <p id="p2"></p>  
+    </div> -->
+<script>
+// var video = document.querySelector("#videoElement");
+
+// if (navigator.mediaDevices.getUserMedia) {
+//   navigator.mediaDevices.getUserMedia({ video: true })
+//     .then(function (stream) {
+//       video.srcObject = stream;
+//       video.play();
+//     })
+//     .catch(function (err0r) {
+//       console.log("Something went wrong!");
+//     });
+// }
+
+  function openbar(){
+  document.getElementById("sidebar").classList.toggle("active");
+}
+</script>
+</body>
+</html>
