@@ -1,3 +1,7 @@
+# Silent-words(Actions that speak)
+This is a project based on sign language actions and alphabets recognizer,we have made a website that uses SRL alphabet recognizer algorithm to detect the actions on an an online platform using webcam.It uses HTML,CSS,Jquery,Javascript,SQL(for database management),php,python and few python libraries and dependencies.The details of referenced algorithm used for this project is given below.
+The demo of given website is here
+![demo]()
 # SLR Alphabet Recognizer
 
 This project is a sign language alphabet recognizer using Python, openCV and tensorflow for training InceptionV3 model, a convolutional neural network model for classification.
